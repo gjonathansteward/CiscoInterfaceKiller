@@ -1,7 +1,7 @@
 from easysnmp import Session  
 from easysnmp import exceptions as SNMPexceptions
 
-ip = "172.17.50.6"
+ip = "1.1.1.1"
 session = Session(hostname=ip, community='public', version=2)
 interfaces = []
 
